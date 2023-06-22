@@ -1,3 +1,5 @@
+use actions_test::messages::get_greeting;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", get_greeting());
 }
