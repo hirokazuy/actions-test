@@ -1,6 +1,6 @@
 
 pub fn get_greeting() -> &'static str {
-    return "Hello World"
+    return "Hello World!"
 }
 
 #[cfg(test)]
